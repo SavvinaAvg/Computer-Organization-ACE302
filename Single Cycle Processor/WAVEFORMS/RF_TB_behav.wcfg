@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RF_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RF_TB" />
+            <top_module name="mux_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9999996fs"></ZoomStartTime>
+      <ZoomEndTime time="10000001fs"></ZoomEndTime>
+      <Cursor1Time time="10000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="215"></NameColumnWidth>
+      <ValueColumnWidth column_width="194"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/RF_TB/Ard1" type="array">
+      <obj_property name="ElementShortName">Ard1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Ard1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RF_TB/Ard2" type="array">
+      <obj_property name="ElementShortName">Ard2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Ard2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RF_TB/Awr" type="array">
+      <obj_property name="ElementShortName">Awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Awr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RF_TB/Din" type="array">
+      <obj_property name="ElementShortName">Din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RF_TB/WrEn" type="logic">
+      <obj_property name="ElementShortName">WrEn</obj_property>
+      <obj_property name="ObjectShortName">WrEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RF_TB/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RF_TB/Rst" type="logic">
+      <obj_property name="ElementShortName">Rst</obj_property>
+      <obj_property name="ObjectShortName">Rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RF_TB/Dout1" type="array">
+      <obj_property name="ElementShortName">Dout1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RF_TB/Dout2" type="array">
+      <obj_property name="ElementShortName">Dout2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RF_TB/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>
